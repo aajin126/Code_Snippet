@@ -18,3 +18,4 @@ for k in range(L):
         temp = list(map(input().split()))
         time.append(int(temp[k][0]))
         dir.append(temp[k][1])
+
