@@ -24,21 +24,3 @@ board = [[0 for _ in range(N)] for _ in range(N)] # board 값 0으로 초기화
 board[0][0] = 1 # 뱀이 있는 곳은 1로 flag
 
 end = True
-clock = 0
-body = [[0,0]] # 몸통이 있는 좌표
-head = (0,0) # 머리가 있는 좌표
-tail = (0,0) # 꼬리가 있는 좌표
-
-while(end):
-    for t in time:
-        if t == clock:
-            if dir[t] == 'D':
-                head[0] += 1
-                if len(body) == 1:
-                    
-                else:
-                    
-
-            elif dir[t] == 'L':
-                
-    clock += 1
