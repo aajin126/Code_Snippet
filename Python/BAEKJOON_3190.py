@@ -24,6 +24,7 @@ board = [[0 for _ in range(N)] for _ in range(N)] # board 값 0으로 초기화
 board[0][0] = 1 # 뱀이 있는 곳은 1로 flag
 
 while (true):
+    break
     
 
 end = True
